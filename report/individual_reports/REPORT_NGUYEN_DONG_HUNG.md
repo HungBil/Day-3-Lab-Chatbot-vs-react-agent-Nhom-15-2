@@ -1,7 +1,7 @@
 # Individual Report: Lab 3 - Chatbot vs ReAct Agent
 
-- **Student Name**: Nguyễn Bỉnh Hưng
-- **Student ID**: [Điền MSSV]
+- **Student Name**: Nguyễn Đông Hưng
+- **Student ID**: [2A202600392]
 - **Date**: 2026-04-06
 
 ---
