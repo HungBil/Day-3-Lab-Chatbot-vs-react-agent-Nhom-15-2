@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voyanta Agent Chat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="page-bg" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">Voyanta</a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="index.html#features">Features</a>
+            <a href="index.html#plans">Plans</a>
+            <a href="chat.html">Chat</a>
+        </nav>
+    </header>
+
+    <main class="chat-page">
+        <section class="chat-shell" aria-label="Travel planner chat">
+            <div class="chat-header">
+                <div>
+                    <p class="eyebrow">Travel Planner Agent</p>
+                    <h1>Chat With Voyanta</h1>
+                </div>
+                <a class="btn btn-secondary" href="index.html">Back to Landing</a>
+            </div>
+
+            <div class="chat-window" role="log" aria-live="polite">
+                <article class="bubble bubble-agent">
+                    <p>
+                        Hi! I am your travel planner agent. Tell me destination, budget, trip length, and your
+                        interests. I can help estimate hotel, food, attractions, and budget fit.
+                    </p>
+                </article>
+
+                <article class="bubble bubble-user">
+                    <p>Plan a 3-day Da Nang trip with 5,000,000 VND. I like beach spots and local food.</p>
+                </article>
+
+                <article class="bubble bubble-agent">
+                    <p>
+                        Great choice. I will check destination highlights, estimate hotel and food costs, then suggest
+                        attractions and verify budget.
+                    </p>
+                </article>
+            </div>
+
+            <form class="chat-input-area" action="#" method="get">
+                <label for="trip-message" class="sr-only">Message</label>
+                <input id="trip-message" name="message" type="text"
+                    placeholder="Example: 2 days in Hoi An, budget 2 million, culture focus"
+                    aria-label="Type your trip request" />
+                <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Travel Planner Chat UI • HTML + CSS</p>
+    </footer>
+</body>
+
+</html>

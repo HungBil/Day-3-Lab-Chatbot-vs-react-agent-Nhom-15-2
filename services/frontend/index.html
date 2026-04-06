@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voyanta Travel Planner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="page-bg" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a class="brand" href="#">Voyanta</a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="#features">Features</a>
+            <a href="#plans">Plans</a>
+            <a href="#preview">Preview</a>
+            <a href="chat.html">Chat</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Travel Planner App</p>
+                <h1>Plan smarter trips with a style-first travel assistant.</h1>
+                <p class="lead">
+                    Build your itinerary, estimate costs, and discover attractions in one elegant flow.
+                    Designed for quick decisions and calm planning.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="chat.html">Start Planning</a>
+                    <a class="btn btn-secondary" href="#features">See Features</a>
+                </div>
+            </div>
+
+            <aside class="hero-card" id="preview" aria-label="Trip preview">
+                <h2>Trip Snapshot</h2>
+                <ul>
+                    <li><span>Destination</span><strong>Da Nang</strong></li>
+                    <li><span>Duration</span><strong>3 Days</strong></li>
+                    <li><span>Interest</span><strong>Beach & Food</strong></li>
+                    <li><span>Budget</span><strong>5,000,000 VND</strong></li>
+                </ul>
+                <p class="status success">Budget check: Good fit with 1,200,000 VND remaining.</p>
+            </aside>
+        </section>
+
+        <section class="feature-grid" id="features" aria-label="Core features">
+            <article class="feature-card">
+                <h3>Destination Finder</h3>
+                <p>Compare city highlights, best seasons, and local specialties in seconds.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Weather Insight</h3>
+                <p>Check monthly conditions before confirming dates and activities.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Budget Breakdown</h3>
+                <p>Estimate hotels, meals, and attraction costs with clear totals.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Interest-based Picks</h3>
+                <p>Get places matched to beach, culture, adventure, or food preferences.</p>
+            </article>
+        </section>
+
+        <section class="plans" id="plans" aria-label="Suggested plans">
+            <h2>Starter Plan Cards</h2>
+            <div class="plan-list">
+                <article class="plan-card">
+                    <p class="plan-tag">Weekend</p>
+                    <h3>Hoi An Culture Escape</h3>
+                    <p>2 days of old-town walks, local food, and lantern-lit evenings.</p>
+                </article>
+                <article class="plan-card">
+                    <p class="plan-tag">Beach</p>
+                    <h3>Da Nang Sunny Route</h3>
+                    <p>My Khe sunrise, coastal cafes, and flexible cost-aware itinerary.</p>
+                </article>
+                <article class="plan-card">
+                    <p class="plan-tag">Nature</p>
+                    <h3>Sapa Mountain Mood</h3>
+                    <p>Cloud valleys, village visits, and cold-season preparation tips.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Travel Planner Frontend Base • HTML + CSS</p>
+    </footer>
+</body>
+
+</html>
